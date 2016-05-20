@@ -1,0 +1,32 @@
+.loginBox{
+	margin-top: 10%;
+}
+.wrap{
+	margin-top: 10px;
+}
+.big-leter{
+	font-size: 2.5em;
+}
+
+#cancel{
+	display: none;	
+}
+#helpBerkas{
+	display: none;
+}
+.blink{
+	animation-duration: 1s;
+	animation-name: blink;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(2, start);
+	color: red;
+}
+@keyframes blink{
+	80%{
+		visibility: hidden;
+		color: red;
+	}
+}
+.red{
+	color: red;
+}
